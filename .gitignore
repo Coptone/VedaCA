@@ -1,0 +1,6 @@
+.pm/
+.build/
+**/bin/
+**/obj/
+/.codex/
+/docs/evidence/
