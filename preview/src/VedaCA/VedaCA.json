@@ -2,10 +2,10 @@
   "Author": "Coptone",
   "Name": "VedaCA",
   "InternalName": "VedaCA",
-  "AssemblyVersion": "0.1.0.0",
-  "Description": "只读诊断候选：原生 ActionEffect 持续失败关闭，已核实构建 allowlist 为空。用户可主动启用官方受管飞字事件观察辅助，仅在有界内存中查看 kind、val1 原始数值及本地序号。不读取飞字文本或身份，不保证本人输出或全部战斗覆盖。国服 7.58、实际 ABI 与 Dalamud 支持尚未核实。无音效、记录文件或网络功能。",
+  "AssemblyVersion": "0.1.1.0",
+  "Description": "只读诊断候选：原生 ActionEffect 持续失败关闭。可分别主动启用官方受管飞字观察与 ChatMessageUnhandled 日志来源实验；各自最多保留 512 条内存记录。日志仅保存 Damage/Action 的 LogKind、SourceKind 和独立本地序号，不读取文本、Sender 或身份。LocalPlayer 仅为框架关系标记，未经用户实机验证；不能确认本人归属、技能 ID 或四种伤害分类，不能与飞字关联。游戏日志设置可能影响可见性。国服 7.58、实际 ABI 与 Dalamud 支持尚未核实。无音效、记录文件或网络功能。",
   "ApplicableVersion": "2026.11.03.0000.0000",
   "DalamudApiLevel": 15,
   "Tags": ["diagnostics", "readonly"],
-  "Punchline": "可选只读飞字观察辅助；原生监听保持失败关闭。"
+  "Punchline": "可选只读日志来源实验与飞字观察；默认不订阅，无音效。"
 }
