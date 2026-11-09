@@ -1,0 +1,11 @@
+{
+  "Author": "Coptone",
+  "Name": "VedaCA",
+  "InternalName": "VedaCA",
+  "AssemblyVersion": "0.1.0.0",
+  "Description": "只读诊断候选：原生 ActionEffect 持续失败关闭，已核实构建 allowlist 为空。用户可主动启用官方受管飞字事件观察辅助，仅在有界内存中查看 kind、val1 原始数值及本地序号。不读取飞字文本或身份，不保证本人输出或全部战斗覆盖。国服 7.58、实际 ABI 与 Dalamud 支持尚未核实。无音效、记录文件或网络功能。",
+  "ApplicableVersion": "2026.11.03.0000.0000",
+  "DalamudApiLevel": 15,
+  "Tags": ["diagnostics", "readonly"],
+  "Punchline": "可选只读飞字观察辅助；原生监听保持失败关闭。"
+}

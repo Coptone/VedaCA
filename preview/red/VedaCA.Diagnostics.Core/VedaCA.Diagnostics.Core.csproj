@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>VedaCA.Diagnostics.Core</AssemblyName>
+    <RootNamespace>VedaCA.Diagnostics.Core</RootNamespace>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../src/VedaCA.Diagnostics.Core/BoundedBuffer.cs" Link="BoundedBuffer.cs" />
+    <Compile Include="../../src/VedaCA.Diagnostics.Core/RawEffectRecord.cs" Link="RawEffectRecord.cs" />
+  </ItemGroup>
+</Project>
