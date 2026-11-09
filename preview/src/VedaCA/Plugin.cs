@@ -18,6 +18,7 @@ public sealed class Plugin : IDalamudPlugin
     private readonly ResourceScope registrations = new();
     private readonly FlyTextObservation observation;
     private readonly ChatLogObservation chatObservation;
+    private readonly SoundPreviewController soundPreview = new(WindowsSoundPreviewBackend.Play);
     private int disposed;
     private bool windowVisible;
     private bool uiFault;
@@ -147,6 +148,11 @@ public sealed class Plugin : IDalamudPlugin
 
     private void DrawContents()
     {
+        if (ImGui.Button("试听提示音"))
+            this.soundPreview.Preview();
+        ImGui.TextWrapped(this.soundPreview.Status);
+        ImGui.TextWrapped("仅手动试听 Windows 配置的 Asterisk 系统提示音。Windows 的声音设置、静音和输出设备会影响实际听感；与游戏混音不保证。此处使用 OS 声音接口，不是游戏原生 Hook；不等待战斗归属、不自动播放、不代表已实现战斗触发。");
+        ImGui.Separator();
         ImGui.TextWrapped("原生 ActionEffect：失败关闭；未创建 Hook；不读取未知内存。运行客户端精准版本未知。");
         ImGui.TextWrapped($"受支持构建证据条目：{CaptureSupport.VerifiedBuildCount}。国服 ABI、运行环境与 7.58 的 Dalamud 支持均未核实。");
         ImGui.TextWrapped("截至 2026-11-09，7.57 当前在线，目标国服 7.58 尚未上线。公告目标客户端号 2026.11.03.0000.0000 仅为计划信息，不是运行版本或 ABI 证据。");
