@@ -32,8 +32,8 @@
     "Author": "Coptone",
     "Name": "VedaCA",
     "InternalName": "VedaCA",
-    "AssemblyVersion": "0.1.4.3",
-    "Description": "自定义 WAV 或 MP3 音源取前 15 秒，短音频播完即停。直爆音效支持自定义加速步长、超时重置开关和重置限时。",
+    "AssemblyVersion": "0.1.5.0",
+    "Description": "自定义直爆、死亡和团灭音效。自己或队友死亡时随机播放并支持并播，8 人小队全灭时切换到团灭音效。死亡和团灭可分别选择 WAV / MP3 音效文件夹。",
     "ApplicableVersion": "any",
     "Tags": [
       "diagnostics",
@@ -47,13 +47,13 @@
     "Punchline": "本地自定义直爆音效与木桩诊断。",
     "AcceptsFeedback": true,
     "RepoUrl": "https://github.com/Coptone/VedaCA",
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/Coptone/VedaCA/main/release/VedaCA-0.1.4.3.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Coptone/VedaCA/main/release/VedaCA-0.1.4.3.zip",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/Coptone/VedaCA/main/release/VedaCA-0.1.5.0.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Coptone/VedaCA/main/release/VedaCA-0.1.5.0.zip",
     "DownloadLinkTesting": null,
     "TestingAssemblyVersion": null,
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": 1794412687,
-    "Changelog": "默认从 1.00 倍起，每次有效直爆增加 0.20 倍，最高 2.00 倍。默认距上次触发 30 秒后重置。步长、重置开关和限时可保存。"
+    "LastUpdate": 1794414450,
+    "Changelog": "新增死亡与团灭音效。两个文件夹可独立选择，音频和 0.7、1、1.5、2 倍速随机抽取。队友死亡音效可并播，8 人小队全灭时停止死亡音效并播放团灭音效。"
   }
 ]
