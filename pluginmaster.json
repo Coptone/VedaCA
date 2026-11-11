@@ -32,8 +32,8 @@
     "Author": "Coptone",
     "Name": "VedaCA",
     "InternalName": "VedaCA",
-    "AssemblyVersion": "0.1.5.0",
-    "Description": "自定义直爆、死亡和团灭音效。自己或队友死亡时随机播放并支持并播，8 人小队全灭时切换到团灭音效。死亡和团灭可分别选择 WAV / MP3 音效文件夹。",
+    "AssemblyVersion": "0.1.6.0",
+    "Description": "自定义直爆、死亡和团灭音效。直爆覆盖 21 个常规战斗职业，可按职业勾选技能。死亡和团灭可分别选择 WAV / MP3 音效文件夹。",
     "ApplicableVersion": "any",
     "Tags": [
       "diagnostics",
@@ -47,13 +47,13 @@
     "Punchline": "本地自定义直爆音效与木桩诊断。",
     "AcceptsFeedback": true,
     "RepoUrl": "https://github.com/Coptone/VedaCA",
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/Coptone/VedaCA/main/release/VedaCA-0.1.5.0.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Coptone/VedaCA/main/release/VedaCA-0.1.5.0.zip",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/Coptone/VedaCA/main/release/VedaCA-0.1.6.0.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Coptone/VedaCA/main/release/VedaCA-0.1.6.0.zip",
     "DownloadLinkTesting": null,
     "TestingAssemblyVersion": null,
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": 1794414450,
-    "Changelog": "新增死亡与团灭音效。两个文件夹可独立选择，音频和 0.7、1、1.5、2 倍速随机抽取。队友死亡音效可并播，8 人小队全灭时停止死亡音效并播放团灭音效。"
+    "LastUpdate": 1794415261,
+    "Changelog": "直爆音效扩展到 21 个常规战斗职业，共 84 个可选技能。默认显示当前职业，可切换职业并分别勾选技能。已有勾选设置会保留。"
   }
 ]
