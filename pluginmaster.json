@@ -32,8 +32,8 @@
     "Author": "Coptone",
     "Name": "VedaCA",
     "InternalName": "VedaCA",
-    "AssemblyVersion": "0.1.4.1",
-    "Description": "保存自选 WAV 或 MP3 音源并提前准备音频输出。勾选的技能打出直击暴击时播放音效，按本场有效次数逐步加速。支持蛮荒崩裂、尽毁等范围技能的主目标判定。",
+    "AssemblyVersion": "0.1.4.2",
+    "Description": "自定义 WAV 或 MP3 音源取前 15 秒，短音频播完即停。勾选技能直击暴击时播放，并按本场有效次数逐步加速。",
     "ApplicableVersion": "any",
     "Tags": [
       "diagnostics",
@@ -47,13 +47,13 @@
     "Punchline": "本地自定义直爆音效与木桩诊断。",
     "AcceptsFeedback": true,
     "RepoUrl": "https://github.com/Coptone/VedaCA",
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/Coptone/VedaCA/main/release/VedaCA-0.1.4.1.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Coptone/VedaCA/main/release/VedaCA-0.1.4.1.zip",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/Coptone/VedaCA/main/release/VedaCA-0.1.4.2.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Coptone/VedaCA/main/release/VedaCA-0.1.4.2.zip",
     "DownloadLinkTesting": null,
     "TestingAssemblyVersion": null,
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": 1794410882,
-    "Changelog": "提前准备音频输出并跳过音源开头短暂静音。连续直爆按 1.10 倍递增，最高 3.00 倍。支持蛮荒崩裂、尽毁等范围技能的主目标命中。"
+    "LastUpdate": 1794412011,
+    "Changelog": "长音源可直接导入，每次触发取音源前 15 秒。短音源播完即停。新导入仅保存用于播放的片段。"
   }
 ]
