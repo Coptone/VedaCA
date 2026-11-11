@@ -32,8 +32,8 @@
     "Author": "Coptone",
     "Name": "VedaCA",
     "InternalName": "VedaCA",
-    "AssemblyVersion": "0.1.3.1",
-    "Description": "单目标木桩诊断。支持观察战士混沌旋风、狂魂、蛮荒崩裂、尽毁等技能 ID 与同一条伤害的标记。手动开始记录和试听，自动音效待实机核验。",
+    "AssemblyVersion": "0.1.4.0",
+    "Description": "选择并保存本地 WAV 或 MP3 音源。主动开启后，勾选的技能由本人对单个目标打出直击暴击时播放音效。可试听并查看战士等技能的木桩诊断。",
     "ApplicableVersion": "any",
     "Tags": [
       "diagnostics",
@@ -44,16 +44,16 @@
     "LoadSync": false,
     "CanUnloadAsync": false,
     "LoadPriority": 0,
-    "Punchline": "单目标技能效果诊断评审候选。",
+    "Punchline": "本地自定义直爆音效与木桩诊断。",
     "AcceptsFeedback": true,
     "RepoUrl": "https://github.com/Coptone/VedaCA",
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/Coptone/VedaCA/main/release/VedaCA-0.1.3.1.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Coptone/VedaCA/main/release/VedaCA-0.1.3.1.zip",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/Coptone/VedaCA/main/release/VedaCA-0.1.4.0.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Coptone/VedaCA/main/release/VedaCA-0.1.4.0.zip",
     "DownloadLinkTesting": null,
     "TestingAssemblyVersion": null,
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": 1794303282,
-    "Changelog": "018 战士木桩诊断：新增狂魂、混沌旋风、蛮荒崩裂和尽毁。手动开始记录后可观察实际技能 ID 与同一伤害的直击暴击标记。"
+    "LastUpdate": 1794409841,
+    "Changelog": "新增本地 WAV / MP3 音源、试听和自动直爆音效开关。音源、开关和技能勾选可在重启后恢复。"
   }
 ]
