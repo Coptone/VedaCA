@@ -32,7 +32,7 @@
     "Author": "Coptone",
     "Name": "VedaCA",
     "InternalName": "VedaCA",
-    "AssemblyVersion": "0.1.6.0",
+    "AssemblyVersion": "0.1.6.1",
     "Description": "自定义直爆、死亡和团灭音效。直爆覆盖 21 个常规战斗职业，可按职业勾选技能。死亡和团灭可分别选择 WAV / MP3 音效文件夹。",
     "ApplicableVersion": "any",
     "Tags": [
@@ -47,13 +47,13 @@
     "Punchline": "本地自定义直爆音效与木桩诊断。",
     "AcceptsFeedback": true,
     "RepoUrl": "https://github.com/Coptone/VedaCA",
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/Coptone/VedaCA/main/release/VedaCA-0.1.6.0.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Coptone/VedaCA/main/release/VedaCA-0.1.6.0.zip",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/Coptone/VedaCA/main/release/VedaCA-0.1.6.1.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Coptone/VedaCA/main/release/VedaCA-0.1.6.1.zip",
     "DownloadLinkTesting": null,
     "TestingAssemblyVersion": null,
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": 1794415261,
-    "Changelog": "直爆音效扩展到 21 个常规战斗职业，共 84 个可选技能。默认显示当前职业，可切换职业并分别勾选技能。已有勾选设置会保留。"
+    "LastUpdate": 1794649381,
+    "Changelog": "新增 0%–100% 音效总音量，可实时调节并保存。播放速度按音源采样率换算，试听以 1 倍速播放。"
   }
 ]
